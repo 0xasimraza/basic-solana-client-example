@@ -5,8 +5,6 @@ use anchor_lang::prelude::*;
 pub struct Decrement<'info> {
     #[account(mut)]
     pub counter: Account<'info, Counter>,
-    // pub system_program: Program<'info, System>,
-    // pub rent: Sysvar<'info, Rent>,
 }
 
 pub fn handler(ctx: Context<Decrement>) -> Result<()> {
