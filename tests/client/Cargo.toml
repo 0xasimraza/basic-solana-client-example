@@ -1,0 +1,11 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2021"
+ 
+[dependencies]
+anchor-client = "0.29.0"
+anchor-lang = "0.29.0"
+anyhow = "1.0.93"
+tokio = { version = "1.0", features = ["full"] }
+counter-rs-test-example = { path = "../../programs/counter-rs-test-example" }
