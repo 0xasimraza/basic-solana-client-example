@@ -84,6 +84,11 @@ The project includes both TypeScript and Rust tests.
 To run all tests:
 
 ```bash
+anchor test --skip-local-validator
+```
+
+
+```bash
 anchor test
 ```
 
